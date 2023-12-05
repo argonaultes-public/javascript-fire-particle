@@ -1,0 +1,19 @@
+.bigtitle {
+	text-align: center;
+	color: white;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logotitle {
+	background-color: antiquewhite;
+	text-align: center;
+}
+
+.bigbutton {
+	text-align: center;
+}
+
+.form {
+	margin-top: 30px;
+	text-align: center;
+}
