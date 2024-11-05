@@ -2,14 +2,16 @@
   <head>
     <link href="css/fire.css" rel="stylesheet" />
     <link href="css/title.css" rel="stylesheet" />
+    <link href="css/subscription.css" rel="stylesheet" />
     <script src="scripts/fire.js"></script>
+    <script src="scripts/subscription.js"></script>
   </head>
   <body>
     <div class="logotitle">
       <img src="images/logo-epsi.svg" />
     </div>
     <div class="bigtitle">
-      <h1>Bienvenue à l'EPSI</h1>
+      <h1>Bienvenue à l'EPSI Paris</h1>
     </div>
     <div class="bigbutton">
       <button onclick="enableFire()">Démarrer</button>
@@ -26,5 +28,27 @@
       <div class="particle"></div>
       <div class="particle"></div>
     </div>
+
+    <div>
+      <form onsubmit="subscribe(event)">
+        <div>
+          <label for="login">Nom</label>
+          <input type="text" id="login" name="login" />  
+        </div>
+        <div>
+          <label for="birthday">Date de naissance</label>
+          <input type="date" id="birthday" name="birthday"/>  
+        </div>
+        <div>
+          <input type="submit" value="Enregistrer">
+        </div>
+      </form>
+  
+    </div>
+    <div id="summaryresult">
+      <h2>R&eacute;sultat</h2>
+      <div id="result"></div>
+    </div>
+
   </body>
 </html>

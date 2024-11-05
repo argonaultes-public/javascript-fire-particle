@@ -1,0 +1,22 @@
+{
+  "name": "tp-js-webstarter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/argonaultes-education/framework-javascript-tp-webstarter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/argonaultes-education/framework-javascript-tp-webstarter/issues"
+  },
+  "homepage": "https://github.com/argonaultes-education/framework-javascript-tp-webstarter#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
